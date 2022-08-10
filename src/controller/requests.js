@@ -1,4 +1,4 @@
-const baseUrl = 'https://nutrifood-backend.herokuapp.com/';
+const baseUrl = 'https://nutrifood-backend.herokuapp.com';
 
 async function getAllSnacks(category = "") {
     return await fetch(baseUrl + `/snacks/${category}`).then(response => response.json());
