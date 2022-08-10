@@ -1,0 +1,87 @@
+<div class="w-2/5" style="margin: 0 auto;">
+    <br>
+    <h3 class="text-2xl text-indigo-600 font-bold mb-6 -ml-3">Todos Os Seus Pedidos</h3>
+    <hr class="my-1.5">
+
+    <p>
+        <b>Aqui Voce Pode Ver todos os seus pedidos</b>
+    </p>
+
+    <br>
+
+    <ol id="list-of-orders" class="border-l-2 border-purple-600 w-2/3" style="margin: 0 auto">
+
+
+    </ol>
+
+    <hr class="my-3">
+</div>
+
+<div id="modal-order-detail"
+    class="hidden modal-table-order-details overflow-x-auto  sm:rounded-lg fade w-2/3 outline-none overflow-x-hidden overflow-y-auto">
+    <h2 class="text-2xl text-center font-extrabold tracking-tight text-indigo-600">
+        Informacoes do Pedido#<strong id="modal-order-id-detail"></strong>
+    </h2>
+
+    <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400 table-order-details">
+        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <tr>
+                <th scope="col" class="px-6 py-3">
+                    Nome
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Preco
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    quantidade
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    total
+                </th>
+            </tr>
+        </thead>
+        <tbody id="list-of-snacks-from-order">
+
+            <tr
+                class="border-b dark:bg-gray-800 dark:border-gray-700 odd:bg-white even:bg-gray-50 odd:dark:bg-gray-800 even:dark:bg-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                    Hamburguer Vegetariano
+                </th>
+                <td class="px-6 py-4">
+                    R$ 10.99
+                </td>
+                <td class="px-6 py-4">
+                    3
+                </td>
+                <td class="px-6 py-4">
+                    R$ 32.97
+                </td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+    <h2 class="text-1xl text-center tracking-tight text-indigo-600">
+        Forma de Pagamento: <strong id="payment-detail">PIX</strong>
+    </h2>
+    <h2 id="" class="text-1xl text-center tracking-tight text-indigo-600">
+        Valor Total: R$ <strong id="total-value-detail">1200.99</strong>
+    </h2>
+
+    <button id="btn-close-modal-order-detail" style="display: block; margin:10px auto" id="btn-close-order-details"
+        type="button"
+        class="inline-block my-2.5 px-4 py-2 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">
+        Fechar
+    </button>
+
+</div>
+
+<!--<center>
+    <h1 class="text-6xl font-normal leading-normal mt-0 mb-2 text-pink-800">
+        PAGINA DE PEDIDOS EM PRODUÇÃO!!!
+    </h1>
+    <h1  style="font-size: 220px">
+        🚧
+    </h1>
+</center>-->

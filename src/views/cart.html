@@ -1,0 +1,84 @@
+<div class="overflow-x-auto  sm:rounded-lg fade w-2/3 h-full outline-none overflow-x-hidden overflow-y-auto"
+    style="margin: 0 auto;">
+    <br>
+    <h2 class="text-2xl text-center font-extrabold tracking-tight text-indigo-600">
+        Itens do seu Carrinho
+    </h2>
+
+    <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <tr>
+
+                <th scope="col" class="px-6 py-3">
+                    Image
+                </th>
+
+                <th scope="col" class="px-6 py-3">
+                    Nome
+                </th>
+
+                <th scope="col" class="px-6 py-3">
+                    Preco
+                </th>
+
+                <th scope="col" class="px-6 py-3">
+                    Quantidade
+                </th>
+
+                <th scope="col" class="px-6 py-3">
+                    Total
+                </th>
+            </tr>
+        </thead>
+
+        <tbody id="itens-of-cart">
+
+
+        </tbody>
+
+    </table>
+
+
+    <div id="infos-confirm-order" style="width: 500px; margin: 0 auto;">
+        <br>
+        <h1>INFORMAÇÕES DE PAGAMENTO</h1>
+        <hr>
+        <br>
+
+        <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="w-full px-3">
+                <select id="select-payment"
+                    class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                    id="grid-password">
+                    <option selected>SELECIONE A FORMA DE PAGAMENTO</option>
+                    <option value="CARTAO">CARTÃO</option>
+                    <option value="PIX">PIX</option>
+                </select>
+
+                <p class="hidden text-gray-600 text-xs italic">Make it as long and as crazy as you'd like</p>
+            </div>
+        </div>
+    </div>
+
+
+    <h2 id="" class="text-1xl text-center font-extrabold tracking-tight text-indigo-600">
+        Valor Total: R$ <strong id="total-value-order">1200.99</strong>
+    </h2>
+
+
+
+    <div style="display: block; width: 310px; margin:10px auto;">
+
+        <button id="btn-confirm-order" id="btn-close-order-details" type="button"
+            class="inline-block my-2.5 px-4 py-2 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">
+            CONFIRMAR PEDIDO
+        </button>
+
+        <button id="btn-cancel-order" id="btn-close-order-details" type="button"
+            class="inline-block my-2.5 px-4 py-2 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">
+            CANCELAR PEDIDO
+        </button>
+
+    </div>
+
+</div>

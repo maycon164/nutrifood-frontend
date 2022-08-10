@@ -1,0 +1,52 @@
+[
+    {
+        "nome":"Batata",
+        "preco": 10,
+        "tipo": "lanche",
+        "status": "disponivel"
+    },
+
+    {
+        "nome":"Macarrão",
+        "preco": 6,
+        "tipo": "massa",
+        "status": "disponivel"
+    },
+    {
+        "nome":"Hamburguer",
+        "preco": 15,
+        "tipo": "lanche",
+        "status": "disponivel"
+    },
+    {
+        "nome":"Gelatina",
+        "tipo":"sobremesa",
+        "preco": 10,
+        "status": "disponivel"
+    },
+    {
+        "nome":"lasanha",
+        "preco": 10,
+        "tipo": "massa",
+        "status": "disponivel"
+    },
+
+    {
+        "nome":"Suco de Laranha",
+        "preco": 22.87,
+        "tipo": "bebida",
+        "status": "disponivel"
+    },
+    {
+        "nome":"Hot Dog",
+        "preco": 7.99,
+        "tipo": "lanche",
+        "status": "disponivel"
+    },
+    {
+        "nome":"Refrigerante",
+        "tipo":"bebida",
+        "preco": 6.99,
+        "status": "disponivel"
+    }
+]
