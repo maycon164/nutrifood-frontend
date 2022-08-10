@@ -1,44 +1,44 @@
 
 const pages = [
     {
-        html: "/src/views/home.html",
-        script: "/src/controller/home.controller.js",
+        html: "./src/views/home.html",
+        script: "./src/controller/home.controller.js",
         loaded: false,
         section: document.getElementById("home-section")
     },
     {
-        html: "/src/views/cardapio.html",
-        script: "/src/controller/snacks.controller.js",
+        html: "./src/views/cardapio.html",
+        script: "./src/controller/snacks.controller.js",
         loaded: false,
         section: document.getElementById("cardapio-section")
     },
     {
-        html: "/src/views/pedidos.html",
-        script: "/src/controller/order.controller.js",
+        html: "./src/views/pedidos.html",
+        script: "./src/controller/order.controller.js",
         loaded: false,
         section: document.getElementById("pedidos-section")
     },
     {
-        html: "/src/views/confirmarPedido.html",
-        script: "/src/controller/confirmorder.controller.js",
+        html: "./src/views/confirmarPedido.html",
+        script: "./src/controller/confirmorder.controller.js",
         loaded: false,
         section: document.getElementById("confirmar-pedido-section")
     },
     {
-        html: "/src/views/snackManage.html",
-        script: "/src/controller/snackmanage.controller.js",
+        html: "./src/views/snackManage.html",
+        script: "./src/controller/snackmanage.controller.js",
         loaded: false,
         section: document.getElementById("snack-manage-section")
     },
     {
-        html: "/src/views/login.html",
-        script: "/src/controller/login.controller.js",
+        html: "./src/views/login.html",
+        script: "./src/controller/login.controller.js",
         loaded: false,
         section: document.getElementById("login-section")
     },
     {
-        html: "/src/views/cart.html",
-        script: "/src/controller/cart.controller.js",
+        html: "./src/views/cart.html",
+        script: "./src/controller/cart.controller.js",
         loaded: false,
         section: document.getElementById("cart-section")
     }
