@@ -48,7 +48,7 @@ async function getSnack(id) {
 }
 
 async function makeRegister(objRegister) {
-    const objResponse = await fetch('http://localhost:3000/users/', {
+    const objResponse = await fetch(baseUrl + '/users', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
