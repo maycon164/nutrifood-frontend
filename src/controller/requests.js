@@ -1,4 +1,5 @@
 const baseUrl = 'https://nutrifood-backend.herokuapp.com';
+//const baseUrl = 'http://localhost:3000';
 
 async function getAllSnacks(category = "") {
     return await fetch(baseUrl + `/snacks/${category}`).then(response => response.json());
@@ -109,7 +110,7 @@ async function updateSnack(id) {
 }
 
 async function insertNewSnackRequest(snack) {
-    return await fetch(baseUrl + "snacks", {
+    return await fetch(baseUrl + "/snacks", {
         method: "POST",
         headers: {
             "Authorization": `Bearer ${getTokenAccess()}`
